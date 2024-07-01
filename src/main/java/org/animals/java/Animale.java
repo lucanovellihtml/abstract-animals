@@ -32,7 +32,7 @@ public abstract class Animale {
 
 
 	/*
-	 * MOSTRA A VIDEO L'ANIMALE CHE DORME
+	 * MOSTRA A VIDEO L'ANIMALE CHE DORME;
 	 */
 	public void dormi() {
 		System.out.println("- L'ANIMALE STA DORMENDO ---> Zzz");
@@ -40,13 +40,13 @@ public abstract class Animale {
 
 	
 	/*
-	 * METODO CHE MOSTRA A VIDEO IL VERSO FATTO DALL'ANIMALE SPECIFICO
+	 * METODO CHE MOSTRA A VIDEO IL VERSO FATTO DALL'ANIMALE SPECIFICO;
 	 */
 	public abstract void verso();
 	
 	
 	/*
-	 * METODO CHE MOSTRA A VIDEO QUELLO CHE MANGIA L'ANIMALE SPECIFICO
+	 * METODO CHE MOSTRA A VIDEO QUELLO CHE MANGIA L'ANIMALE SPECIFICO;
 	 */
 	public void mangia() {
 		System.out.print("- L'ANIMALE MANGIA ---> ");
