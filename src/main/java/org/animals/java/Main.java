@@ -7,13 +7,13 @@ public class Main {
 		Cane dog = new Cane("Pallina");
 		Aquila eagle = new Aquila("Aquila Reale");
 		Delfino dolphin = new Delfino("Delfino curioso");
-		Passerotto bird = new Passerotto("Uccellino");
 		
 		System.out.println("------- CANE -------");
 		System.out.println("- NOME ANIMALE ---> " + dog.getName());
 		System.out.println("- ETA' ANIMALE ---> " + dog.getAge());
 		dog.verso();
 		dog.mangia();
+		Utility.faiNuotare(dog);
 		System.out.println("------------------------------------");
 		
 		System.out.println("------- DELFINO -------");
@@ -21,7 +21,17 @@ public class Main {
 		System.out.println("- ETA' ANIMALE ---> " + dolphin.getAge());
 		dolphin.verso();
 		dolphin.mangia();
+		Utility.faiNuotare(dolphin);
+		System.out.println("------------------------------------");
+		
+		System.out.println("------- Aquila -------");
+		System.out.println("- NOME ANIMALE ---> " + eagle.getName());
+		System.out.println("- ETA' ANIMALE ---> " + eagle.getAge());
+		eagle.verso();
+		eagle.mangia();
+		Utility.faiVolare(eagle);
 		System.out.print("------------------------------------");
-	}
 
+	}
+	
 }
